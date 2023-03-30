@@ -5,5 +5,3 @@ export const ActionCreators = {
   ...UserActionCreators,
   ...TodoActionCreators,
 };
-
-console.log(ActionCreators);
