@@ -1,4 +1,5 @@
 import "./App.css";
+import PostLIst from "./components/postList/postLIst";
 import TodoList from "./components/todoList/todoList";
 import UserList from "./components/userList/userList";
 
@@ -8,6 +9,8 @@ function App() {
       <UserList />
       <hr />
       <TodoList />
+      <hr />
+      <PostLIst />
     </div>
   );
 }
